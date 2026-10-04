@@ -28,9 +28,9 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             <a class="<?= $currentPage === 'profile.php' ? 'active' : '' ?>" href="profile.php">Tentang Kami</a> 
             <a class="<?= $currentPage === 'programs.php' ? 'active' : '' ?>" href="programs.php">Program Studi Kami</a> 
             <a class="<?= in_array($currentPage, ['news.php', 'news_detail.php']) ? 'active' : '' ?>" href="news.php">Berita</a> 
-            <a class="<?= $currentPage === 'contact.php' ? 'active' : '' ?>" href="contact.php">Hubungi Kami</a> 
+            <a class="<?= $currentPage === 'contact.php' ? 'active' : '' ?>" href="contact.php">Hubungi Kita</a> 
         </nav> 
     </div> 
-</header> 
+</header>
 
 <main>
